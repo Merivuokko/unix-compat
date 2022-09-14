@@ -17,13 +17,13 @@ module System.PosixCompat.User (
     , getEffectiveUserName
 
     -- *** The group database
-    , GroupEntry(..)
+    -- , GroupEntry(..)
     , getGroupEntryForID
     , getGroupEntryForName
     , getAllGroupEntries
 
     -- *** The user database
-    , UserEntry(..)
+    -- , UserEntry(..)
     , getUserEntryForID
     , getUserEntryForName
     , getAllUserEntries
